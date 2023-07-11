@@ -1,0 +1,8 @@
+# Modèle créé le : Fri Jul 07 11:00:33 CEST 2023 
+Fillms (Idfilms_Fillms, Titre_Fillms, Durée_Fillms, AnnéeDeSortie_Fillms) 
+Utilisateurs (IdUtilisateurs_Utilisateurs, Nom_Utilisateurs, Prénom_Utilisateurs, Email_Utilisateurs, MotDePasse_Utilisateurs, Rôle_Utilisateurs) 
+Acteurs (Idacteurs_actrices_Acteurs, Nom_Acteurs, Prénom_Acteurs, DateDeNaissance_Acteurs) 
+Réalisateurs (IdRéalisateurs_Réalisateurs, Nom_Réalisateurs, Prénom_Réalisateurs) 
+FilmsFavoris (IdUtilisateurs_Utilisateurs, Idfilms_Fillms) 
+Jouer (Idfilms_Fillms, Idacteurs_actrices_Acteurs, Rôle_Acteurs) 
+Réaliser (Idfilms_Fillms, IdRéalisateurs_Réalisateurs) 
